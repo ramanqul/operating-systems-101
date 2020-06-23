@@ -15,7 +15,7 @@ int main() {
 	
 	fd = open(filename, O_CREAT, mode);
 		
-	
+	char c = getchar();
 	
 	return 0;	
 }
